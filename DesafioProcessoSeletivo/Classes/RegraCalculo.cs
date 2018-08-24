@@ -1,14 +1,13 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace DesafioProcessoSeletivo.Classes
 {
-    public class RegraCalculo
+    /* Interface criada com o objetivo de garantir a criação de novas regra de cálculo sem garndes modifiações no sistema*/
+    public interface RegraCalculo
     {
-        public double Calcular(IEnumerable<Produto> produtos)
-        {
-            // Regra extensa de cálculo.
-            return produtos.Sum(x => x.Preco);
-        }
+        /* Toda classe que extender a interface RegraCalculo deve implementar o método abaixo */
+        double Calcular(IEnumerable<Produto> produtos);
     }
 }

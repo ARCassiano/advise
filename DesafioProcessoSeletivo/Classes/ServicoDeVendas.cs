@@ -6,9 +6,11 @@ namespace DesafioProcessoSeletivo.Classes
     {
         private readonly RegraCalculo RegraCalculo;
 
-        public ServicoDeVendas()
+        /* O método construtor passou a receber a instância de RegraCalculo
+         * Desta forma aplicando a inversão de controle e utilizando o conceito de Single Responsibility */
+        public ServicoDeVendas(RegraCalculo regraCalculo)
         {
-            this.RegraCalculo = new RegraCalculo();
+            this.RegraCalculo = regraCalculo;
         }
 
         public void Vender(Venda venda)
@@ -17,7 +19,9 @@ namespace DesafioProcessoSeletivo.Classes
             var precoTotal = this.RegraCalculo.Calcular(venda.Produtos);
 
             // Registra a ordem de pagamento para o cliente....
+            Console.WriteLine("");
             Console.WriteLine(":D");
+            Console.WriteLine("Valor total: " + precoTotal);
         }
     }
 }

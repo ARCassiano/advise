@@ -1,5 +1,6 @@
 ﻿using DesafioProcessoSeletivo.Classes;
 using System.Collections.Generic;
+using System;
 
 namespace DesafioProcessoSeletivo
 {
@@ -17,6 +18,18 @@ namespace DesafioProcessoSeletivo
              * Obs: Utilize inversão de controle.
              */
 
+            /* Descrição do processo realizado:
+             * Foi criada a interface RegraCalculo e as Classes RegraCalculoPJ e RegraCalculoPF extendendo este interface
+             * A Classe ServicoDeVendas passou a receber a instância de RegraCalculo (Inversão de Controle)
+             * Desta forma sendo possível aplicar o polimorfismo no cálculo de acordo com o tipo de cliente
+             * a interface RegraCalculo foi definida com public devido o uso dela na Classe ServicoDeVendas, as mesmas não se encontram no mesmo pacote
+             */
+
+            Console.WriteLine("");
+            Console.WriteLine("Desafio POO");
+
+            Console.WriteLine("");
+            Console.WriteLine("Exercicio 1");
             Pessoa pessoa = new Pessoa(1, "Julião", 25, "325.984.751-85");
             Venda venda = new Venda(pessoa, new List<Produto>
             {
@@ -25,9 +38,13 @@ namespace DesafioProcessoSeletivo
                 new Produto("Pó de chips", 500)
             });
 
-            ServicoDeVendas servicoDeVendas = new ServicoDeVendas();
+            /* Utilizando o cálculo para Pessoa Física */
+            ServicoDeVendas servicoDeVendas = new ServicoDeVendas(new RegraCalculoPF());
             servicoDeVendas.Vender(venda);
 
+            /* Utilizando o cálculo para Pessoa Júridica */
+            ServicoDeVendas servicoDeVendasPJ = new ServicoDeVendas(new RegraCalculoPJ());
+            servicoDeVendasPJ.Vender(venda);
 
 
             /* 2 - Ainda pensando em orientação a objetos, crie um exemplo utilizando as classes: Pessoa, Venda, Produto 
@@ -37,6 +54,12 @@ namespace DesafioProcessoSeletivo
              * Obs: As classes informadas podem ser alteradas a fim de demonstrar tais princípios. 
              */
 
+            /* Com a inversão de controle aplicado na classe ServicoDeVendas e a criação da interface RegraCalculo, o exercício 2 foi realizado */
+            Console.WriteLine("");
+            Console.WriteLine("Exercicio 2");
+
+            Console.WriteLine("");
+            Console.WriteLine("Desafio POO - Finalizado");
         }
     }
 }
