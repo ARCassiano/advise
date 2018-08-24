@@ -16,6 +16,9 @@ namespace DesafioProcessoSeletivo
             DesafioEF desafioEF = new DesafioEF();
             desafioEF.Desafio();
 
+            DesafioLINQ desafioLINQ = new DesafioLINQ();
+            desafioLINQ.Desafio();
+
             Console.ReadKey();
         }
     }
