@@ -270,7 +270,7 @@ namespace DesafioProcessoSeletivoTest
             Exception ex = Assert.Throws<InvalidOperationException>(() => classeParaTeste.InserirNovoFilho(filho, nomeUsuarioAlteracao));
 
             Assert.Equal("Não posso ter dois primeiros filhos.", ex.Message);
-
+ 
         }
 
         /* Teste de exceção método inserirPrimeiroFilho da clsse ClasseParaTeste */
