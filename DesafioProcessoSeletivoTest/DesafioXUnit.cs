@@ -4,7 +4,7 @@ using System.Linq;
 using Xunit;
 
 namespace DesafioProcessoSeletivoTest
-{
+{ 
     public class DesafioXUnit
     {
         /* Este teste cobra conceitos de teste unitário e conceitos de cobertura de código.
