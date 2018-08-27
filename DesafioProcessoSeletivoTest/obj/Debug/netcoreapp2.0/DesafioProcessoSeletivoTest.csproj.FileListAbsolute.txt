@@ -1,0 +1,14 @@
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.deps.json
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.runtimeconfig.json
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.runtimeconfig.dev.json
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.dll
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\bin\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.pdb
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\obj\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.csprojAssemblyReference.cache
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\obj\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.csproj.CoreCompileInputs.cache
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\obj\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.AssemblyInfoInputs.cache
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\obj\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.AssemblyInfo.cs
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\obj\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.dll
+C:\Users\Cassianu!s\Documents\GitHub\advise\DesafioProcessoSeletivoTest\obj\Debug\netcoreapp2.0\DesafioProcessoSeletivoTest.pdb
